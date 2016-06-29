@@ -1,1 +1,6 @@
-loader.js
+$(document).ready(function(){
+	//hiding stuff:
+	$(".hide").hide();
+
+	
+});
