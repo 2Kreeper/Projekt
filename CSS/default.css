@@ -1,4 +1,6 @@
-
+* {
+	z-index: 0;
+}
 
 div {
 	border: 1px solid lightgrey;
@@ -11,11 +13,15 @@ div {
 }
 
 #nav, #main {
-	width: 47.7vw;
+	
 }
 
 #nav {
+	max-width: 47.7vw;
 	float: left;
+}
+#nav * {
+	padding-right: 10px;
 }
 
 #actuals {
@@ -25,6 +31,8 @@ div {
 }
 
 #main {
+	max-width: 80vw;
+	min-width: 47.7vw;
 	float: right;
 }
 
