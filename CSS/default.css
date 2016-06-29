@@ -1,0 +1,43 @@
+
+
+div {
+	border: 1px solid lightgrey;
+	margin: 10px;
+}
+
+
+#header, #footer {
+	text-align: center;
+}
+
+#nav, #main {
+	width: 47.7vw;
+}
+
+#nav {
+	float: left;
+}
+
+#actuals {
+	float: left;
+
+	margin-top: 20vw;
+}
+
+#main {
+	float: right;
+}
+
+#footer {
+	clear: both;
+}
+
+
+.fixed {
+	position: fixed;
+}
+
+.error {
+	color: red;
+	font-size: 110%;
+}
